@@ -11,18 +11,21 @@
       <Compile Remove="OpenGL Demos\**" />
       <Compile Remove="OpenGL Tutorials\**" />
       <Compile Remove="FirstOpenGL\**" />
+      <Compile Remove="VeldridTry\**" />
     </ItemGroup>
 
     <ItemGroup>
       <EmbeddedResource Remove="OpenGL Demos\**" />
       <EmbeddedResource Remove="OpenGL Tutorials\**" />
       <EmbeddedResource Remove="FirstOpenGL\**" />
+      <EmbeddedResource Remove="VeldridTry\**" />
     </ItemGroup>
 
     <ItemGroup>
       <None Remove="OpenGL Demos\**" />
       <None Remove="OpenGL Tutorials\**" />
       <None Remove="FirstOpenGL\**" />
+      <None Remove="VeldridTry\**" />
     </ItemGroup>
 
     <ItemGroup>
