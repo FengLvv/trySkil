@@ -11,11 +11,6 @@
       <PackageReference Include="SixLabors.ImageSharp" Version="2.1.6" />
     </ItemGroup>
 
-    <ItemGroup>
-        <ProjectReference Include="..\..\..\..\src\Input\Silk.NET.Input\Silk.NET.Input.csproj" />
-        <ProjectReference Include="..\..\..\..\src\OpenGL\Silk.NET.OpenGL\Silk.NET.OpenGL.csproj" />
-        <ProjectReference Include="..\..\..\..\src\Windowing\Silk.NET.Windowing\Silk.NET.Windowing.csproj" />
-    </ItemGroup>
 
     <ItemGroup>
       <None Update="lighting.frag">
@@ -33,6 +28,11 @@
       <None Update="silkBoxed.png">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\FirstOpenGL\FirstOpenGL.csproj" />
     </ItemGroup>
 
 </Project>
