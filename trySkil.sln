@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "trySkil", "trySkil.csproj", "{EB54B7DC-1AA0-4B63-A87E-3F09E0DF5120}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstOpenGL", "FirstOpenGL\FirstOpenGL.csproj", "{B79B29D1-7709-4E67-B5D1-3CB6AC504B41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeldridTry", "VeldridTry\VeldridTry.csproj", "{DA225770-DD6D-4DDC-BC27-09657327AEC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB54B7DC-1AA0-4B63-A87E-3F09E0DF5120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB54B7DC-1AA0-4B63-A87E-3F09E0DF5120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB54B7DC-1AA0-4B63-A87E-3F09E0DF5120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB54B7DC-1AA0-4B63-A87E-3F09E0DF5120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79B29D1-7709-4E67-B5D1-3CB6AC504B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79B29D1-7709-4E67-B5D1-3CB6AC504B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79B29D1-7709-4E67-B5D1-3CB6AC504B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79B29D1-7709-4E67-B5D1-3CB6AC504B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA225770-DD6D-4DDC-BC27-09657327AEC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA225770-DD6D-4DDC-BC27-09657327AEC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA225770-DD6D-4DDC-BC27-09657327AEC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA225770-DD6D-4DDC-BC27-09657327AEC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

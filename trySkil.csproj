@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="OpenGL Demos\**" />
+      <Compile Remove="OpenGL Tutorials\**" />
+      <Compile Remove="FirstOpenGL\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="OpenGL Demos\**" />
+      <EmbeddedResource Remove="OpenGL Tutorials\**" />
+      <EmbeddedResource Remove="FirstOpenGL\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="OpenGL Demos\**" />
+      <None Remove="OpenGL Tutorials\**" />
+      <None Remove="FirstOpenGL\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Humanizer" Version="2.7.9" />
+      <PackageReference Include="Silk.NET.Input" Version="2.20.0" />
+      <PackageReference Include="Silk.NET.Maths" Version="2.20.0" />
+      <PackageReference Include="Silk.NET.OpenGL" Version="2.20.0" />
+      <PackageReference Include="Silk.NET.Windowing" Version="2.20.0" />
+    </ItemGroup>
+
+</Project>
