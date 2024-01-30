@@ -18,7 +18,7 @@ namespace Tutorial
 
         //Vertex shaders are run on each vertex.
         private static readonly string VertexShaderSource = @"
-        #version 330 core //Using version GLSL version 3.3
+        #version 430 core //Using version GLSL version 3.3
         layout (location = 0) in vec4 vPos;
         
         void main()
@@ -29,7 +29,7 @@ namespace Tutorial
 
         //Fragment shaders are run on each fragment/pixel of the geometry.
         private static readonly string FragmentShaderSource = @"
-        #version 330 core
+        #version 430 core
         out vec4 FragColor;
 
         void main()

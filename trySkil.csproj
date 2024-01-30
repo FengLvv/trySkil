@@ -12,6 +12,7 @@
       <Compile Remove="OpenGL Tutorials\**" />
       <Compile Remove="FirstOpenGL\**" />
       <Compile Remove="VeldridTry\**" />
+      <Compile Remove="TryCompute\**" />
     </ItemGroup>
 
     <ItemGroup>
@@ -19,6 +20,7 @@
       <EmbeddedResource Remove="OpenGL Tutorials\**" />
       <EmbeddedResource Remove="FirstOpenGL\**" />
       <EmbeddedResource Remove="VeldridTry\**" />
+      <EmbeddedResource Remove="TryCompute\**" />
     </ItemGroup>
 
     <ItemGroup>
@@ -26,6 +28,7 @@
       <None Remove="OpenGL Tutorials\**" />
       <None Remove="FirstOpenGL\**" />
       <None Remove="VeldridTry\**" />
+      <None Remove="TryCompute\**" />
     </ItemGroup>
 
     <ItemGroup>
